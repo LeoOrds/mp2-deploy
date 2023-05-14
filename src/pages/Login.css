@@ -1,0 +1,88 @@
+.cont_login{
+    background-image: url(/images/patientportal.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+  }
+  .logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+  }
+  .container_login{
+    margin-top: 3vh;
+  }
+  .title_login{
+    text-align: center;
+    font-size: 5vh;
+    font-family: 'Playfair Display', serif;
+    padding-bottom: 3vh;
+  }
+  .container_email{
+    width: 60%;  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    font-family: 'Playfair Display', serif;
+    border-radius: 10px;
+    text-align: center;
+    border: solid gray;
+    border-width: 1px;
+  }
+  .container_pass{
+    width: 60%;  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    font-family: 'Playfair Display', serif;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 2vh;
+    border: solid gray;
+    border-width: 1px;
+  }
+  .remember_me{
+    font-size: 2.5vh;
+    font-family: 'Playfair Display', serif;
+    padding-top: 1vh;
+    padding-left: 10vw;
+  }
+  .button_signin{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20vh;
+    padding: 5px 8px;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    font-size: 3vh;
+    background-color: #0d6efd;
+    color: white;
+    box-shadow: 1px 1px 5px #000000;
+    margin-top: 4vh;
+    font-family: 'Playfair Display', serif;
+  }
+  .button_signin:hover{
+    background-color: white;
+    color: #0d6efd;
+    border-width: 1px;
+  }
+  .box_login{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.596);
+  }

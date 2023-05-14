@@ -1,0 +1,55 @@
+.hero{
+    background-image: url(/images/patientportal.jpg);
+    height: 85vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+  }
+  .hero_text {
+    text-align: center;
+    padding: 10px;
+    color: black;
+    font-size: 6vh;
+    font-family: 'Playfair Display', serif;
+  }
+  @media screen and (min-width: 900px) {
+    .hero_text {
+     padding: 2em;
+    }
+  }
+  .login_text {
+    color: #000000;
+    border-radius: 5px;
+    border: none;
+    font-size: 3vh;
+    box-shadow: 1px 1px 5px #000000;
+
+  }
+  
+  .login_button{
+    text-align: center;
+    margin-left: auto;
+    margin-right: 5px;
+    
+  }
+  .login_text:hover{
+    background-color:#0d6efd;
+    color: White;
+    border-width: 1px;
+  }
+
+  .signup_button{
+    text-align: center;
+    margin-left: 5px;
+    margin-right: auto;
+    
+  }
+  .desc{
+    text-align: center;
+    padding: 1em;
+    color: black;
+    font-size: 4vh;
+    font-family: 'Playfair Display', serif;
+  }

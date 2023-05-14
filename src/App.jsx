@@ -1,35 +1,38 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Navbar from "./Navbar"
+import Home from "./pages/Home.jsx"
+import Wellness from "./pages/Wellness"
+import FamiliMeds from "./pages/FamiliMeds"
+import FamilyPlan from "./pages/FamilyPlan"
+import Faqs from "./pages/Faqs"
+import About from "./pages/about"
+import Reqapp from "./pages/Reqapp"
+import Signup from "./pages/Signup"
+import Login from "./pages/Login"
+import Patientos from "./pages/Patientos"
+import Footer from "./Footer"
+import { Route, Routes } from "react-router-dom"
+
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
+  return( 
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Navbar />
+        <Routes>
+          <Route path="/Home" element={<Home/>}/>
+          <Route path="/Wellness" element={<Wellness/>}/>
+          <Route path="/FamiliMeds" element={<FamiliMeds/>}/>
+          <Route path="/FamilyPlan" element={<FamilyPlan/>}/>
+          <Route path="/Faqs" element={<Faqs/>}/>
+          <Route path="/about" element={<About/>}/>
+          <Route path="/Reqapp" element={<Reqapp/>}/>
+          <Route path="/Signup" element={<Signup/>}/>
+          <Route path="/Login" element={<Login/>}/>
+          <Route path="/Patientos" element={<Patientos/>}/>
+        </Routes>
+        <Footer />
     </>
   )
 }
+
 
 export default App
