@@ -14,7 +14,7 @@ import {Reqapp} from ".pages/Reqapp"
 import {Signup} from ".pages/Signup"
 import {Wellness} from ".pages/Wellness"
 
-const router = createBrowserRouter([
+const pages = createBrowserRouter([
   {
     path: "/mp2-deploy/",
     element: <App />,
@@ -56,11 +56,15 @@ const router = createBrowserRouter([
   },
 ]);
 
-
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
+    <RouterProvider router={pages} />
   </React.StrictMode>
-)
+);
+// ReactDOM.createRoot(document.getElementById('root')).render(
+//   <React.StrictMode>
+//     <BrowserRouter>
+//       <App />
+//     </BrowserRouter>
+//   </React.StrictMode>
+// )
