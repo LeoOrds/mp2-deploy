@@ -1,5 +1,5 @@
 import Navbar from "./Navbar";
-import Home from "./pages/Home.";
+import Home from "./pages/Home";
 import Wellness from "./pages/Wellness";
 import FamiliMeds from "./pages/FamiliMeds";
 import FamilyPlan from "./pages/FamilyPlan";
@@ -18,7 +18,7 @@ function App() {
     <>
       <Navbar />
         <Routes>
-          <Route path="/Home" element={<Home/>}/>
+          <Route path="/" element={<Home/>}/>
           <Route path="/Wellness" element={<Wellness/>}/>
           <Route path="/FamiliMeds" element={<FamiliMeds/>}/>
           <Route path="/FamilyPlan" element={<FamilyPlan/>}/>
