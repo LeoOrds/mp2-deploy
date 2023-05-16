@@ -1,5 +1,5 @@
 
-function about() {
+function About() {
     return <>
     <div className="container">
         <h1 className="text-center">About Us</h1>
@@ -52,5 +52,5 @@ function about() {
     </div>
     
     </>
-}
-export default about
+};
+export default About;
