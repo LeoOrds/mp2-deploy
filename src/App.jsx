@@ -1,7 +1,7 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Route, Routes, } from "react-router-dom";
 import Navbar from "./Navbar";
 import Home from "./pages/Home";
-import {Wellness} from "./pages/Wellness";
+import Wellness from "./pages/Wellness";
 import FamiliMeds from "./pages/FamiliMeds";
 import FamilyPlan from "./pages/FamilyPlan";
 import Faqs from "./pages/Faqs";
@@ -16,9 +16,8 @@ import Footer from "./Footer";
 function App() {
   return( 
     <>
-    <Router>
       <Navbar />
-        <Routes path= "/mp2-deploy">
+        <Routes>
           <Route path="/*" element={<Home/>}/>
           <Route path="/Wellness" element={<Wellness/>}/>
           <Route path="/FamiliMeds" element={<FamiliMeds/>}/>
@@ -31,7 +30,6 @@ function App() {
           <Route path="/Patientos" element={<Patientos/>}/>
         </Routes>
         <Footer />
-        </Router>
     </>
   );
 }
