@@ -1,7 +1,7 @@
 import { Route, Routes, } from "react-router-dom";
 import Navbar from "./Navbar";
 import Home from "./pages/Home";
-import Wellness from "./pages/Wellness";
+import Wellness from "./Wellness";
 import FamiliMeds from "./pages/FamiliMeds";
 import FamilyPlan from "./pages/FamilyPlan";
 import Faqs from "./pages/Faqs";
@@ -20,7 +20,7 @@ function App() {
       <Navbar />
         <Routes>
           <Route path="/*" element={<Home/>}/>
-          <Route path="/mp2-deploy/" element={<Wellness/>}/>
+          <Route path="/Wellness" element={<Wellness/>}/>
           <Route path="/FamiliMeds" element={<FamiliMeds/>}/>
           <Route path="/FamilyPlan" element={<FamilyPlan/>}/>
           <Route path="/Faqs" element={<Faqs/>}/>

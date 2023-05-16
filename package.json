@@ -1,6 +1,6 @@
 {
-  "homepage": "https://LeoOrds.github.io/mp2-deploy" ,
   "name": "mp2-react-js",
+  "homepage": "https://leoords.github.io/mp2-deploy",
   "private": true,
   "version": "0.0.0",
   "type": "module",
