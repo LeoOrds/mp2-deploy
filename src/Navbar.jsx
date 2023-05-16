@@ -24,7 +24,7 @@ function CollapsibleExample() {
                 Separated link
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="./Wellness"><span className='nav_right'>Wellness</span></Nav.Link>
+            <Nav.Link href="./pages/Wellness"><span className='nav_right'>Wellness</span></Nav.Link>
             <Nav.Link href="./Faqs"><span className='nav_right'>FAQ's</span></Nav.Link>
           </Nav>
           <Nav>
