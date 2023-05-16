@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import "./Navbar.css"
+import "./Navbar.css";
 
 function CollapsibleExample() {
   return (
@@ -12,7 +12,7 @@ function CollapsibleExample() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="./about"><span className='nav_right'>About</span></Nav.Link>
+            <Nav.Link href="./About"><span className='nav_right'>About</span></Nav.Link>
             <NavDropdown className='navdrop' title="Services" id="collasible-nav-dropdown">
               <NavDropdown.Item href="./halaman">./halaman</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
