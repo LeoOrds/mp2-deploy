@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import "./Navbar.css";
 
-function CollapsibleExample() {
+function Navbar1() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="white" variant="white">
       <Container>
@@ -24,7 +24,7 @@ function CollapsibleExample() {
                 Separated link
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="./pages/Wellness"><span className='nav_right'>Wellness</span></Nav.Link>
+            <Nav.Link href="./Wellness"><span className='nav_right'>Wellness</span></Nav.Link>
             <Nav.Link href="./Faqs"><span className='nav_right'>FAQ's</span></Nav.Link>
           </Nav>
           <Nav>
@@ -37,7 +37,7 @@ function CollapsibleExample() {
   );
 }
 
-export default CollapsibleExample;
+export default Navbar1;
 
 // import "./Navbar.css";
 // import NavDropdown from 'react-bootstrap/NavDropdown';

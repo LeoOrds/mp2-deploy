@@ -17,7 +17,9 @@ function App() {
   return( 
     <>
       <Navbar />
-        <Routes>
+      <Home/>
+      <Footer />
+        {/* <Routes>
           <Route path="/*" element={<Home/>}/>
           <Route path="/Wellness" element={<Wellness/>}/>
           <Route path="/FamiliMeds" element={<FamiliMeds/>}/>
@@ -29,7 +31,7 @@ function App() {
           <Route path="/Login" element={<Login/>}/>
           <Route path="/Patientos" element={<Patientos/>}/>
         </Routes>
-        <Footer />
+        <Footer /> */}
     </>
   );
 }
